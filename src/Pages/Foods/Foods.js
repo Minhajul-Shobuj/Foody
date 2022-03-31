@@ -11,13 +11,13 @@ const Foods = () => {
         setCart(newCart);
     };
     return (
-        <div className='container mt-2 row'>
-            <div className='col-lg-8 col-md-8'>
+        <div className='d-flex container mt-2 row'>
+            <div className='col-lg-8 col-md-8 col-sm-8'>
             <div className='container mt-2 row row-cols-1 row-cols-md-3 g-4'>
-            {foods.map(food=><Food addToCart={addToCart} food={food} key={food._id}></Food>)}
+            {foods.map(food=><Food addToCart={addToCart} food={food} key={food.name}></Food>)}
         </div>
             </div>
-        <div className='col-lg-4 col-md-4'>
+        <div className='col-lg-4 col-md-4 col-sm-4'>
             <Cart cart={cart}></Cart>
         </div>
         </div>

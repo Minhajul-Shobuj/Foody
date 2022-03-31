@@ -17,11 +17,12 @@ const TopFoods = () => {
             <div className='container mt-2 row row-cols-1 row-cols-md-3 g-4'>
             {topFoods.map(food=>
                 <div class="col">
-                <div style={{'height':'400px', 'width':'250px'}} class="card">
+                <div style={{'height':'430px', 'width':'250px'}} class="card">
                   <img style={{'height':'200px'}} src={food.img} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">{food.name}</h5>
-                    <p class="card-text">{food.type}</p>
+                   <h5 class="card-title">{food.name}</h5>
+                   <p class="card-text">Price: {food.price}$</p>
+            <p class="card-text">Rating: {food.rating}</p>
                   </div>
                   <div class="card-footer">
                     <button onClick={()=>addToCart(food)} className='btn btn-success'>Add to Cart</button>

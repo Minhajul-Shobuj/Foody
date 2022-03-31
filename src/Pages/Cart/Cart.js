@@ -31,10 +31,10 @@ const Cart = ({cart}) => {
     <ListGroup variant="flush">
     <ListGroup.Item> <h3>Items Ordered: {totalQuantity}</h3> </ListGroup.Item>
     {foodName.map(name=><ListGroup.Item key={name}><h6>{name}</h6></ListGroup.Item>)} <hr />
-    <ListGroup.Item> <h4>Total: {total.toFixed(2)}</h4> </ListGroup.Item>
-    <ListGroup.Item> <h4>Shipping: {shipping}</h4> </ListGroup.Item>
-    <ListGroup.Item> <h4>tax: {tax.toFixed(2)}</h4> </ListGroup.Item>
-    <ListGroup.Item> <h4>Grand Total: {grandTotal.toFixed(2)}</h4> </ListGroup.Item>
+    <ListGroup.Item> <h4>Total: {total.toFixed(2)}$</h4> </ListGroup.Item>
+    <ListGroup.Item> <h4>Shipping: {shipping}$</h4> </ListGroup.Item>
+    <ListGroup.Item> <h4>tax: {tax.toFixed(2)}$</h4> </ListGroup.Item>
+    <ListGroup.Item> <h4>Grand Total: {grandTotal.toFixed(2)}$</h4> </ListGroup.Item>
   </ListGroup>
     </Card.Text>
     <Button variant="primary">Checkout</Button>

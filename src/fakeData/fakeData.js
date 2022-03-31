@@ -1,0 +1,17 @@
+const food=[
+    {name:'Apple Frangipan Tart',price:'10',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/wxywrq1468235067.jpg'},
+    {name:'Apple & Blackberry Crumble',price:'12',rating:'4.1',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/xvsurr1511719182.jpg'},
+    {name:'Apam balik","strDrinkAlternate',price:'10',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/adxcbq1619787919.jpg'},
+    {name:'Ayam Percik',price:'15',rating:'4.5',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/020z181619788503.jpg'},
+    {name:'Bakewell tart',price:'12',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/wyrqqq1468233628.jpg'},
+    {name:'Bread and Butter Pudding',price:'18',rating:'4.2',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg'},
+    {name:'Beef Wellington',price:'8',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/vvpprx1487325699.jpg'},
+    {name:'Baingan Bharta',price:'7',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/urtpqw1487341253.jpg'},
+    {name:'Beef Brisket Pot Roast',price:'5',rating:'4.5',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/ursuup1487348423.jpg'},
+    {name:'Beef Sunday Roast',price:'15',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/ssrrrs1503664277.jpg'},
+    {name:'Braised Beef Chilli',price:'20',rating:'4.2',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/uuqvwu1504629254.jpg'},
+    {name:'Beef stroganoff',price:'18',rating:'4',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/svprys1511176755.jpg'},
+    {name:'Broccoli & Stilton soup',price:'20',rating:'4.5',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/tvvxpv1511191952.jpg'},
+    {name:'Bean & Sausage Hotpot',price:'15',rating:'3.9',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/vxuyrx1511302687.jpg'},
+    {name:'Banana Pancakes',price:'20',rating:'4.2',img:'https:\/\/www.themealdb.com\/images\/media\/meals\/sywswr1511383814.jpg'},
+]

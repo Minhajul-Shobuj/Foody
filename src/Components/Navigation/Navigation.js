@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
     return (
         <>
-        <Navbar bg="light" expand={false}>
+        <Navbar sticky='top' bg="light" expand={false}>
   <Container>
   <Navbar.Toggle className='me-2' aria-controls="offcanvasNavbar" />
-    <Navbar.Brand className='me-auto' href="#">Navbar Offcanvas</Navbar.Brand>
+    <Navbar.Brand as={Link} to='/home' className='me-auto text-bold'>FoodY</Navbar.Brand>
     <Navbar.Offcanvas
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
