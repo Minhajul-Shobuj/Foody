@@ -1,8 +1,8 @@
 # FoodY
 
-Website Live Site ➡ [Link](https://e-smarts.web.app/)
+Website Live Site ➡ [Link](https://foodybyreact.netlify.app/)
 
-Client Side Code ➡ [Link](https://github.com/Minhajul-Shobuj/E-smart)
+Client Side Code ➡ [Link](https://github.com/Minhajul-Shobuj/Foody)
 
 ### Short Description
 This site is build to deliver food.
