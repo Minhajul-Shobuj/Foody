@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
+import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
@@ -15,20 +15,14 @@ const Navigation = () => {
       placement="start"
     >
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="bg-dark justify-content-end flex-grow-1 pe-3">
           <Nav.Link as={Link} to='/'>Home</Nav.Link>
-          <Nav.Link href="#action2">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">
-              Something else here
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link as={Link} to='/foods'>Foods</Nav.Link>
+          <Nav.Link as={Link} to='/about'>About</Nav.Link>
+          <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
         </Nav>
       </Offcanvas.Body>
     </Navbar.Offcanvas>
